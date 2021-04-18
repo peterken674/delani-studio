@@ -1,0 +1,28 @@
+#header{
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#header p{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+#headerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+}
+#logo{
+    margin-bottom: 1rem;
+}
+#mouseIcon{
+    margin: auto auto 5vh auto;
+}
