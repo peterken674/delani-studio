@@ -50,6 +50,13 @@
     left: 0px;
     color: white;
 }
+/* What We Do */
+#thirdSection{
+    height: 100vh;
+}
+/* #thirdsection>div{
+
+} */
 
 /* Media Queries */
 @media screen and (min-width:720px){
