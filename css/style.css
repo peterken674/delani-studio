@@ -26,6 +26,32 @@
 #mouseIcon{
     margin: auto auto 5vh auto;
 }
+/* Second Section */
+#secondSection{
+    height: 100vh;
+    text-align: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutUs{
+    height: 50%;
+    width: 100%;
+}
+#services{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    color: white;
+}
+
+/* Media Queries */
 @media screen and (min-width:720px){
     #header p{
         font-size: 3rem;
