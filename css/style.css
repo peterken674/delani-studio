@@ -137,7 +137,14 @@
     position: relative;
     width: 100%;
 }
-.image-overlay{
+.img-ovly-1, 
+.img-ovly-2,
+.img-ovly-3,
+.img-ovly-4,
+.img-ovly-5,
+.img-ovly-6,
+.img-ovly-7,
+.img-ovly-8 {
     background-color: rgba(255, 255, 255, 0.85);
     position: absolute;
     height: 100%;
@@ -147,6 +154,14 @@
     align-items: center;
     color: rgb(20, 20, 20);
 }
-.pr{
+.pr-1,
+.pr-2,
+.pr-3,
+.pr-4,
+.pr-5,
+.pr-6,
+.pr-7,
+.pr-8
+{
     width: fit-content;
 }
