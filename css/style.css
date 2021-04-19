@@ -29,6 +29,38 @@
 
 #mouseIcon {
     margin: auto auto 5vh auto;
+    animation: bounce 2s infinite;
+}
+#mouseIcon:hover{
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        transform: translateY(-5px)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+
+    100% {
+        transform: translateY(-5px)
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-5px)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+
+    100% {
+        transform: translateY(-5px)
+    }
 }
 
 /* Second Section */
