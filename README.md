@@ -11,7 +11,9 @@ Scroll to move between the sections.
 ## Technologies Used
 - HTML
 - CSS
+- Bootstrap 4
 - JavaScript
+- jQuery
 ## Support and contact details
 If you have any suggestions, questions or in case of a fire, you can reach the developer via [email](mailto:peterken.ngugi@gmail.com).
 ### License
