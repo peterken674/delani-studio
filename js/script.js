@@ -11,5 +11,14 @@ $(document).ready(function(e){
         $('.pdt-mgt-image, .pdt-mgt-text').toggle();
     });
 
+    $('#contactUsForm').submit(function(event){
+        let userName = $('#userName').val();
+        let userEmail = $('#userEmail').val();
+        let userMessage = $('#userName').val();
+        alert("Hello " + userName + ". We have received your message. Thank you for contacting us.")
+
+        event.preventDefault();
+    });
+
     e.preventDefault();
 });
