@@ -34,6 +34,7 @@
 }
 #aboutUs{
     height: auto;
+    min-height: 50vh;
     width: 100%;
     padding: 1rem;
 }
@@ -42,6 +43,7 @@
     background-size: cover;
     background-position: center;
     height: auto;
+    min-height: 50vh;
     width: 100%;
     color: white;
     padding: 1rem;
@@ -52,7 +54,8 @@
 }
 /* Contact Us section */
 #contactUs{
-    height: 80vh;
+    height: auto;
+    padding-bottom: 2rem;
     width: 100%;
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
