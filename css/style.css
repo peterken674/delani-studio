@@ -54,7 +54,32 @@
 #thirdSection{
     height: auto;
 }
+/* Contact Us section */
+#contactUs{
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
 
+#socialMedia{
+    height: 20vh;
+    width: 100%;
+}
+.social-media-icons{
+    height: 100%;
+}
+#icons{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icons a{
+    padding: 1rem;
+}
 /* Media Queries */
 @media screen and (min-width:720px){
     #header p{
