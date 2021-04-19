@@ -27,28 +27,24 @@
     margin: auto auto 5vh auto;
 }
 /* Second Section */
-#secondSection{
-    height: 100vh;
-    text-align: center;
-}
 .second{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #aboutUs{
-    height: 50%;
+    height: auto;
     width: 100%;
+    padding: 1rem;
 }
 #services{
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
     background-position: center;
-    height: 50%;
+    height: auto;
     width: 100%;
-    position: absolute;
-    left: 0px;
     color: white;
+    padding: 1rem;
 }
 /* What We Do */
 #thirdSection{
@@ -65,15 +61,14 @@
 }
 
 #socialMedia{
-    height: 20vh;
+    height: auto;
     width: 100%;
 }
-.social-media-icons{
-    height: 100%;
-}
+
 #icons{
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -85,4 +80,5 @@
     #header p{
         font-size: 3rem;
     }
+
 }
