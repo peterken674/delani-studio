@@ -11,13 +11,11 @@ $(document).ready(function (e) {
         $('.pdt-mgt-image, .pdt-mgt-text').fadeToggle();
     });
 
-    $('#contactUsForm').submit(function (event) {
+    $('#contactUsForm').submit(function () {
         let userName = $('#userName').val();
         let userEmail = $('#userEmail').val();
         let userMessage = $('#userName').val();
-        alert("Hello " + userName + ". We have received your message. Thank you for contacting us.")
-
-        event.preventDefault();
+        alert("Hello " + userName + ". We have received your message. Thank you for contacting us. If required, we will get back to you via " + userEmail + " soonest possible.")
     });
 
     // Portfolio hover effect.
