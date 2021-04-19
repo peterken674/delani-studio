@@ -196,7 +196,10 @@
 #icons a {
     transition: 300ms;
 }
-
 #icons a:hover {
     transform: scale(1.25);
+}
+.project-title{
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid black;
 }
