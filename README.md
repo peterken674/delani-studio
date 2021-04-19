@@ -3,8 +3,6 @@
 #### By **Peter Kennedy**
 ## Description
 This a company website for a design company called Delani Studio showing a description of some services they offer, portfolio of past projects, and a way to contact them.
-
-![Landing page](assets/DelaniStudio.jpg)
 ## Setup/Installation
 To view the website, go to [peterken674.github.io/delani-studio](https://peterken674.github.io/delani-studio). 
 Scroll to move between the sections.
