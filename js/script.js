@@ -1,7 +1,7 @@
-$(document).ready(function(e){
+$(document).ready(function (e) {
 
     $('.design-text, .dev-text, .pdt-mgt-text').hide();
-    $('.design').click(function(){
+    $('.design').click(function () {
         $('.design-image, .design-text').fadeToggle();
     });
     $('.dev').click(function () {
@@ -11,7 +11,7 @@ $(document).ready(function(e){
         $('.pdt-mgt-image, .pdt-mgt-text').fadeToggle();
     });
 
-    $('#contactUsForm').submit(function(event){
+    $('#contactUsForm').submit(function (event) {
         let userName = $('#userName').val();
         let userEmail = $('#userEmail').val();
         let userMessage = $('#userName').val();
@@ -23,9 +23,9 @@ $(document).ready(function(e){
     // Portfolio hover effect.
     $('.img-ovly-1, .img-ovly-2, .img-ovly-3, .img-ovly-4, .img-ovly-5, .img-ovly-6, .img-ovly-7, .img-ovly-8').hide();
 
-    $('.pr-1').hover(function(){
+    $('.pr-1').hover(function () {
         $('.img-ovly-1').fadeIn();
-    }, function(){
+    }, function () {
         $('.img-ovly-1').fadeOut();
     });
 

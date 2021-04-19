@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: 0px;
+}
+
 #header {
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
@@ -31,7 +36,8 @@
     margin: auto auto 5vh auto;
     animation: bounce 2s infinite;
 }
-#mouseIcon:hover{
+
+#mouseIcon:hover {
     animation-play-state: paused;
 }
 
@@ -77,6 +83,11 @@
     padding: 1rem;
 }
 
+#services-wrapper {
+    padding: 1rem;
+    position: relative;
+}
+
 #services {
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
@@ -84,8 +95,8 @@
     height: auto;
     min-height: 40vh;
     width: 100%;
-    color: white;
-    padding: 1rem;
+    position: absolute;
+    left: 0;
 }
 
 /* What We Do */
@@ -94,20 +105,30 @@
 }
 
 /* Contact Us section */
+#contactUsWrapper {
+    position: relative;
+}
+
 #contactUs {
     height: auto;
     padding-bottom: 2rem;
-    width: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     color: white;
 }
-.form-control::-webkit-input-placeholder{
+
+.form-control::-webkit-input-placeholder {
     color: white;
     font-style: italic;
     opacity: 0.7;
 }
+
 #socialMedia {
     height: auto;
     width: 100%;
@@ -132,12 +153,14 @@
     }
 
 }
-.image-block{
+
+.image-block {
     background-color: white;
     position: relative;
     width: 100%;
 }
-.img-ovly-1, 
+
+.img-ovly-1,
 .img-ovly-2,
 .img-ovly-3,
 .img-ovly-4,
@@ -154,6 +177,7 @@
     align-items: center;
     color: rgb(20, 20, 20);
 }
+
 .pr-1,
 .pr-2,
 .pr-3,
@@ -161,18 +185,18 @@
 .pr-5,
 .pr-6,
 .pr-7,
-.pr-8
-{
+.pr-8 {
     width: fit-content;
 }
 
-.desc{
+.desc {
     transition: 300ms linear;
 }
 
-#icons a{
+#icons a {
     transition: 300ms;
 }
-#icons a:hover{
+
+#icons a:hover {
     transform: scale(1.25);
 }
