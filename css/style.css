@@ -105,17 +105,14 @@
 }
 
 /* Contact Us section */
-#contactUsWrapper {
-    position: relative;
-}
 
 #contactUs {
     height: auto;
     padding-bottom: 2rem;
     min-width: 100%;
-    position: absolute;
+    /* position: absolute;
     left: 0;
-    right: 0;
+    right: 0; */
     background-image: url("../assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
